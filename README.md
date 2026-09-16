@@ -1,13 +1,14 @@
 # phildiamondmusic.com
 
-This folder is the whole website. The site is the single file `index.html`.
+This folder is the whole website: `index.html` plus the `assets` folder (the photos).
 
 ## How to update the site
 
-1. Your designer sends you a new `index.html`.
-2. Drag it into this folder (`phildiamondmusic` in your home folder), replacing the old one.
-3. Open Claude Code in this folder and say **deploy**.
-   (Or, in Terminal: `cd ~/phildiamondmusic` then `./deploy.sh`.)
+1. Your designer sends you a new `index.html` (and possibly a new `assets` folder).
+2. Drag them into this folder (`phildiamondmusic` in your home folder), replacing the old ones.
+   If there's a new `assets` folder, put it in **first**, then `index.html`.
+3. That's it — the site uploads by itself and you get a "✅ Ανεβαίνει" notification.
+   If you don't see one, open Claude Code and say **deploy**.
 
 About a minute later the new version is live at https://phildiamondmusic.com.
 
